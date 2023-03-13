@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shop
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 253f668196c46fd40a0c4fdd3142570a, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: dfbbe3202eb1beb41ad96ae6b9a0d43a, type: 3}
+  - {fileID: 21300000, guid: c553942001090d04b8c90a7b8f1de134, type: 3}
+  - {fileID: 21300000, guid: 42da1ed0b3404aa498eb162bb29d7451, type: 3}
+  - {fileID: 21300000, guid: 154e53a29d432ec41a67bc70e3ff6889, type: 3}
+  - {fileID: 21300000, guid: f04c86e2c1f72ea439b64f538ec3b898, type: 3}
+  - {fileID: 21300000, guid: 585bf0e3f976514408222be3e493c085, type: 3}
+  - {fileID: 21300000, guid: 1614b5250a19e2b47937f32dbdcc135b, type: 3}
+  - {fileID: 21300000, guid: 6ffe6c75a0606a44dbaf98b94a89f0d0, type: 3}
+  - {fileID: 21300000, guid: bcba09c583277514b8a49c84b57e2f4b, type: 3}
+  - {fileID: 21300000, guid: 9ac3a367ef9773b4ba70112e268c8678, type: 3}
+  - {fileID: 21300000, guid: 3b83e8a74a1488f4d92fc2367b98d820, type: 3}
+  - {fileID: 21300000, guid: 4464bc39dc5d3184e9dd648064fa39eb, type: 3}
+  - {fileID: 21300000, guid: 3d388d49c272ca0409c31364d3e790e2, type: 3}
+  - {fileID: 21300000, guid: b6194759f8580e54082dd597bb1c4ddc, type: 3}
+  - {fileID: 21300000, guid: a58a80d9c98629a49b6424daaac1fe61, type: 3}
+  - {fileID: 21300000, guid: fd882cf9fd414ea4c9d28db67f9dac9b, type: 3}
+  - {fileID: 21300000, guid: a6e334da04d180244bb9eb52080ddfbc, type: 3}
+  - {fileID: 21300000, guid: 307488bcc762ba14eb519e80d141b235, type: 3}
+  - {fileID: 21300000, guid: e8f5e17dc3d33a642acef2c49798edda, type: 3}
+  - {fileID: 21300000, guid: f979cfbd8c63c2d4ab4fad53388487ea, type: 3}
+  - {fileID: 21300000, guid: 0b4d278ee3e684d4dabfa50df1614de4, type: 3}
+  - {fileID: 21300000, guid: 915c7fdeb44ed3742a7f42c11d4019d1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\u4EF7\u683C\u6761-\u9AD8\u4EAE\u6846"
+  - "\u5546\u5E97-\u5B8C\u6574\u56FE"
+  - "\u4EF7\u683C\u6761\u5E95\u5F71"
+  - "\u5706\u89D2\u77E9\u5F62-\u4E2D\u95F4"
+  - "\u9053\u51772"
+  - "\u8D2D\u4E70\u6309\u94AE"
+  - "\u6309\u94AE"
+  - "\u5546\u5E97\u5E95\u6846"
+  - "\u5206\u7C7B\u6761\u5E95\u5F71"
+  - "\u6309\u94AE-\u9AD8\u4EAE"
+  - "\u4EF7\u683C\u6761-\u6846"
+  - "\u5706\u89D2\u77E9\u5F62-\u5DE6\u4E0E\u53F3"
+  - "\u900F\u660E\u9ED1\u80CC\u666F"
+  - "\u5706\u89D2\u77E9\u5F62-\u4E2D\u95F4\u9AD8\u4EAE"
+  - "\u5706\u89D2\u77E9\u5F62-\u5DE6\u4E0E\u53F3\u7684\u9AD8\u4EAE"
+  - "\u5546\u5E97\u5185\u6846"
+  - "\u8D2D\u4E70\u6309\u94AE-\u9AD8\u4EAE"
+  - "\u8BF4\u660E\u6846"
+  - "\u9053\u51773"
+  - "\u4EF7\u683C\u8272\u5757"
+  - "\u5E95\u6761 \u6295\u5F71"
+  - "\u9053\u5177"
+  m_RenderDataMap: {}
+  m_Tag: Shop
+  m_IsVariant: 0
+  m_IsPlaceholder: 0

@@ -1,0 +1,221 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5399909495188170251
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2728fcc48127f84a8bddc7297bb42f6, type: 3}
+  m_Name: Sketch
+  m_EditorClassIdentifier: 
+  active: 1
+  Open:
+    m_OverrideState: 1
+    m_Value: 1
+  BlackPower:
+    m_OverrideState: 0
+    m_Value: 0
+  LineWidth:
+    m_OverrideState: 1
+    m_Value: 1
+  LineColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.08789868, b: 0, a: 1}
+  BGColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  BackGroundRatio:
+    m_OverrideState: 1
+    m_Value: 0.5
+--- !u!114 &-5005877263845991627
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 0
+  threshold:
+    m_OverrideState: 1
+    m_Value: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  scatter:
+    m_OverrideState: 0
+    m_Value: 0.7
+  clamp:
+    m_OverrideState: 0
+    m_Value: 65472
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  highQualityFiltering:
+    m_OverrideState: 0
+    m_Value: 0
+  skipIterations:
+    m_OverrideState: 0
+    m_Value: 1
+  dirtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  dirtIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+--- !u!114 &-1018428676213245854
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2524ff253d4394d44b626b64bcc164cf, type: 3}
+  m_Name: Edge
+  m_EditorClassIdentifier: 
+  active: 0
+  Open:
+    m_OverrideState: 1
+    m_Value: 1
+  EdgeWidth:
+    m_OverrideState: 1
+    m_Value: 1
+  EdgeColor:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0.7844248, b: 1, a: 0.5882353}
+--- !u!114 &-293958009736946355
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bde8c354515a084e8685dbad4940447, type: 3}
+  m_Name: YuoBloom
+  m_EditorClassIdentifier: 
+  active: 0
+  Open:
+    m_OverrideState: 1
+    m_Value: 1
+  Power:
+    m_OverrideState: 1
+    m_Value: 1
+  Iteration:
+    m_OverrideState: 1
+    m_Value: 10
+  UseVoronoi:
+    m_OverrideState: 1
+    m_Value: 1
+  UseColor:
+    m_OverrideState: 1
+    m_Value: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: Yuo Volume Profile
+  m_EditorClassIdentifier: 
+  components:
+  - {fileID: 3694675150387036124}
+  - {fileID: -293958009736946355}
+  - {fileID: -5399909495188170251}
+  - {fileID: -1018428676213245854}
+  - {fileID: -5005877263845991627}
+  - {fileID: 4320157871597175171}
+  - {fileID: 3692556520790828892}
+--- !u!114 &3692556520790828892
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1adf6e988093e54cabdd1d92e555988, type: 3}
+  m_Name: ZoomBlur
+  m_EditorClassIdentifier: 
+  active: 0
+  focusPower:
+    m_OverrideState: 1
+    m_Value: 0.5
+  focusDetail:
+    m_OverrideState: 1
+    m_Value: 2
+  focusScreenPosition:
+    m_OverrideState: 1
+    m_Value: {x: 0, y: 0}
+  referenceResolutionX:
+    m_OverrideState: 1
+    m_Value: 12
+--- !u!114 &3694675150387036124
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+  m_Name: Vignette
+  m_EditorClassIdentifier: 
+  active: 0
+  color:
+    m_OverrideState: 1
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
+  center:
+    m_OverrideState: 1
+    m_Value: {x: 0.5, y: 0.5}
+  intensity:
+    m_OverrideState: 1
+    m_Value: 0.334
+  smoothness:
+    m_OverrideState: 1
+    m_Value: 0.4
+  rounded:
+    m_OverrideState: 0
+    m_Value: 1
+--- !u!114 &4320157871597175171
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93837fce77834c46ac7e2a6a70b0175, type: 3}
+  m_Name: GaussianBlur
+  m_EditorClassIdentifier: 
+  active: 0
+  Open:
+    m_OverrideState: 1
+    m_Value: 1
+  Power:
+    m_OverrideState: 1
+    m_Value: 0.027
+  UseVoronoi:
+    m_OverrideState: 0
+    m_Value: 1
+  UseColor:
+    m_OverrideState: 0
+    m_Value: 1

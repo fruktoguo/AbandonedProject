@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainMenu
+  serializedVersion: 2
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 2
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 4af608055149289409e568f9401a82d0, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 09767182c46134b49bed6413aa0ed2ce, type: 3}
+  - {fileID: 21300000, guid: 424884443c425f34f9126da79f542bac, type: 3}
+  - {fileID: 21300000, guid: 36a2dc56acc6ec64d9c32e0b37f7c4b8, type: 3}
+  - {fileID: 21300000, guid: 0993ecf7bbb6a034f886ab0f33a1e5aa, type: 3}
+  - {fileID: 21300000, guid: 78b7eb9bc80e96441a51ad91452c0499, type: 3}
+  - {fileID: 21300000, guid: 7483467cd1b7fc441b16cca33a890027, type: 3}
+  - {fileID: 21300000, guid: 4e64484da06c5d144a156f67a9860160, type: 3}
+  - {fileID: 21300000, guid: e98b01ce49ce89d42a449a58e118130c, type: 3}
+  - {fileID: 21300000, guid: ced6ffce50a7208489096e90ada4ef2a, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\u7EE7\u7EED\u6E38\u620F"
+  - "\u6E38\u620F\u8BBE\u7F6E"
+  - CG
+  - logo
+  - "\u5F00\u59CB\u6E38\u620F "
+  - "\u5149\u6807"
+  - "\u5C01\u9762\u6309\u94AE\u5149\u6E90"
+  - "\u7ED3\u675F"
+  - "\u5C01\u9762\u80CC\u666F"
+  m_RenderDataMap: {}
+  m_Tag: MainMenu
+  m_IsVariant: 0
+  m_IsPlaceholder: 0
